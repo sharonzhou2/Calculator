@@ -12,8 +12,10 @@ body {
 h1 {
     text-align: center;
     color:rgb(245, 169, 139);
+    color: white;
     font-size: 40pt;
-    text-shadow: 0px 0px 5px #f0a1df;
+    text-shadow: 0px 0px 15px #972e80;
+    letter-spacing: 3px;
     margin-top: 100px;
 }
 .calculator {
@@ -37,15 +39,17 @@ h1 {
     margin-bottom: 10px;
     background-color: black;
     color: white;
+    box-shadow: 0px 0px 1000px #f0a1df;
 
 
 }
 
 
 div > button {
-    box-shadow: 0px 0px 5px #f0a1df;
+    box-shadow: 0px 0px 15px #f0a1df;
     border-radius: 10px;
     background-color: white;
+    border: none;
 
 }
 
