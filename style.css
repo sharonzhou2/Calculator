@@ -92,7 +92,7 @@ div > button:hover {
     background-color: rgb(244, 226, 246);
 }
 
-/* .githubLink {
+.githubLink {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
@@ -110,4 +110,4 @@ div > button:hover {
 #made {
     font-size: 10pt;
     margin-top: 10px;
-} */
+}
