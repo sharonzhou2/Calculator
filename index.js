@@ -24,6 +24,7 @@ buttons.forEach((button => {
         }
         if (e.target.classList.value === "operator equals") {
             evaluate(e);
+            resetScreen = true;
 
         }
 
@@ -44,17 +45,15 @@ buttons.forEach((button => {
         }
 
         if (e.target.id === "delete") {
-            console.log(currValue.length);
-            if (currValue.length === 1) {
+            if (display.textContent.length === 1) {
                 display.textContent = 0;
              
             } else {
-                currValue = currValue.slice(0 , -1);
-                display.textContent = currValue;
+                display.textContent = display.textContent.slice(0 , -1);
+                // display.textContent = currValue;
             }
         }
     })
-    // console.log(currValue);
 
 }))
 let resettingScreen = () => {
